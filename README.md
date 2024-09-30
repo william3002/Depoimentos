@@ -20,7 +20,7 @@ Este é um site simples desenvolvido em React, que apresenta um carrossel de dep
 ## Visualizações
 
 ### Desktop (1440px)
-![Desktop](./design/desktop-preview.jpg)
+![Desktop](src/imgs/Desktop.png)
 
 ### Mobile (375px)
-![Mobile](./design/mobile-design.jpg)
+![Mobile](src/imgs/Mobile.png)
