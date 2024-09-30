@@ -24,7 +24,7 @@ export default function App() {
       <div className='h-screen flex justify-center items-center font-inter'>
         <div className='mt-56 xl:mt-0 xl:flex flex-row-reverse'>
 
-          <div className={`flex flex-col justify-center items-center h-96 mt-48 xl:mt-20 ${oculto ? 'block' : 'hidden'}`}>
+          <div className={`flex flex-col justify-center items-center h-96 mt-44 ms-4 xl:mt-20 ${oculto ? 'block' : 'hidden'}`}>
             <img id='imagemDeFundo' className='absolute xl:me-28' src={ImagemDeFundo} alt='imagem de fundo'></img>
             <img id='tanya' className='absolute w-96 xl:w-1/3 shadow-xl xl:me-36' src={Tanya} alt='Imagem da Tanya' />
             <button className='flex justify-center gap-5 items-center relative right-0 top-48 bg-gray-200 w-20 h-10 rounded-full xl:right-56 xl:top-64'>
@@ -33,7 +33,7 @@ export default function App() {
             </button>
           </div>
 
-          <div className={`flex flex-col justify-center items-center h-96 mt-48 xl:mt-20 ${oculto ? 'hidden' : 'block'}`}>
+          <div className={`flex flex-col justify-center items-center h-96 mt-44 ms-4 xl:mt-20 ${oculto ? 'hidden' : 'block'}`}>
             <img id='imagemDeFundo' className='absolute xl:me-28' src={ImagemDeFundo} alt='imagem de fundo'></img>
             <img id='john' className='absolute w-96 xl:w-1/3 shadow-xl xl:me-36' src={John} alt='Imagem do John' />
             <button className='flex justify-center gap-5 items-center relative right-0 top-48 bg-gray-200 w-20 h-10 rounded-full xl:right-56 xl:top-64'>
